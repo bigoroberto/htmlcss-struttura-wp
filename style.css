@@ -36,9 +36,8 @@ header{
   height: 420px;
   background-color: #0184F5;
   margin: auto;
-  margin-bottom: 10px;;
+  margin-bottom: 10px;
 }
-
 
 .title{
   width: 730px;
@@ -47,26 +46,21 @@ header{
   margin-bottom: 14px;
 }
 
-.link{
+.container .link,
+.container .main-content,
+.container .widgets{
   float: left;
-  width: 150px;
-  height: 340px;
   background-color: #ABCFE7;
+  height: 340px;
+}
+
+aside.link,.widgets {
+  width: 150px;
 }
 
 .main-content{
-  float: left;
   width: 400px;
-  height: 340px;
-  background-color: #ABCFE7;
-  margin: 0 10xp;
-}
-
-.widgets{
-  float: left;
-  width: 150px;
-  height: 340px;
-  background-color: #ABCFE7;
+  margin: 0 15px;
 }
 /* /Container 2 */
 
